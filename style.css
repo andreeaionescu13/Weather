@@ -1,0 +1,44 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #B993D6, #8CA6DB);
+    font-family: Helvetica, sans-serif;
+}
+
+button {
+    color: black;
+    background-color: white;
+    font-size: medium;
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    grid-gap: 20px 20px;
+    transition: opacity 0.2s ease-in-out 0.2s;
+    opacity: 0.0;
+}
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+.grid-item:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25), -10px -10px 30px rgba(255, 255, 255, 0.25);
+}
