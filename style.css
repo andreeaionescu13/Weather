@@ -25,7 +25,7 @@ input {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit), minimax(300px, 1fr);
     padding: 20px;
     grid-gap: 20px 20px;
     transition: opacity 0.2s ease-in-out 0.2s;
