@@ -1,6 +1,7 @@
 html, body {
     margin: 0px;
     height: 100%;
+    overflow: hidden;
     background: linear-gradient(to bottom right, #B993D6, #8CA6DB);
     font-family: Helvetica, sans-serif;
 }
