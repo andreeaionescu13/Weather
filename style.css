@@ -1,7 +1,6 @@
 html, body {
     margin: 0px;
     height: 100%;
-    overflow: hidden;
     background: linear-gradient(to bottom right, #B993D6, #8CA6DB);
     font-family: Helvetica, sans-serif;
 }
@@ -25,7 +24,7 @@ input {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit), minimax(300px, 1fr);
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
     padding: 20px;
     grid-gap: 20px 20px;
     transition: opacity 0.2s ease-in-out 0.2s;
